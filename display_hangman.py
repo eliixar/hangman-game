@@ -1,5 +1,33 @@
 def display_hangman(chances):
-    if (chances == 6):
+
+    if (chances == 9):
+         print("\n ---------------  "
+              "\n        |          "
+              "\n      _/O\_        "  
+              "\n       \|/         "
+              "\n        |          "
+              "\n      _/ \_        " 
+        "\n You have 9 chances remaining! ")
+         
+    elif (chances == 8):
+         print( "\n ---------------  "
+              "\n        |          "
+              "\n        O          "  
+              "\n       \|/         "
+              "\n        |          "
+              "\n      _/ \_         " 
+        "\n You have 8 chances remaining! ")
+
+    elif (chances == 7):
+        print( "\n ---------------  "
+              "\n        |          "
+              "\n        O          "  
+              "\n       \|/         "
+              "\n        |          "
+              "\n       / \_        " 
+        "\n You have 7 chances remaining! ")
+
+    elif (chances == 6):
         print( "\n ---------------  "
               "\n        |          "
               "\n        O          "  
@@ -52,7 +80,3 @@ def display_hangman(chances):
               "\n                "
               "\n                "
         "\n You have 1 chance remaining! ")
-
-    elif (chances == 0):
-        print(" You have no chances left and have lost the game! Sorry!")
-
